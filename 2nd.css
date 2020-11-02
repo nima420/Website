@@ -39,7 +39,7 @@ header::before {
 	border-bottom: .2em solid #fff;
 }
 
-h1 {
+h2 {
 	font-size: calc(2.8em + 2.6vw);
 	font-weight: 700;
 	letter-spacing: .01em;
