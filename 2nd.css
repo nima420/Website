@@ -7,7 +7,7 @@
     font-size: 10px;
 
     /* Heading height variable*/
-    --heading-height: 15em;
+    --heading-height: 30em;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 header {
     position: fixed;
-    width: 50%;
+    width: 100%;
     height: var(--heading-height);
 }
 
