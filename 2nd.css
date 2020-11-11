@@ -75,6 +75,15 @@ p {
 	text-align: center;
 	border-radius: 35px;
   }
+  .button{
+	background-color: Transparent;
+	margin-top: 575px;
+	text-align: center;
+	border-radius: 35px;
+	outline:none;
+
+
+}
   
   .blob-btn {
 	z-index: 1;
