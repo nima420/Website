@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <script>
 var baba= new Audio()
-baba.src="pretty.mp3"
+baba.src="baba.mp3"
 </script>
 <style>
   div.fixed {
@@ -35,15 +35,41 @@ img {
 <main>
 
     <img src="j.png" alt="mac" width="360" height="360" class="center">
-    <img src="jj.png" alt="ram" width="700" height="120" class="center">
-    <img src="32.png" alt="32" width="230" height="130" style="margin-left:auto; margin-right: auto; border:none;">
-    <img src="16.png" alt="16" width="230" height="130" style="margin-left: 1; margin-right: auto; border:none;">
-    <img src="64.png" alt="64" width="230" height="130" style="margin-left: auto; margin-right: 1; border:none;">   
-    <img src="d.png" alt="ram" width="150" height="150" style="margin-left: auto; margin-right: 1; border:none;"onclick=baba.play()>
-    <img src="d.png" alt="ram" width="150" height="150" style="position:absolute; top:69%; left:58%; border:none;"onclick=baba.play()>
-    <img src="d.png" alt="ram" width="150" height="150" style= " margin-left: 1; margin-right: auto; border:none;" onclick=baba.play();>
+    <img src="jj.png" alt="ram" width="750" height="130"  style="position:absolute; top:54%; left:32%;">
+    <img src="32.png" alt="32" width="230" height="130" style=" position:absolute; top:82%; left:40%; border:none;">
+    <img src="16.png" alt="16" width="230" height="130" style=" position:absolute; top:67%; left:40%; border:none;">
+    <img src="64.png" alt="64" width="230" height="130" style=" position:absolute; top:97%; left:40%; border:none;">   
+    <img src="d.png" alt="ram" width="120" height="120" style="position:absolute; top:99%; left:55%; border:none;"onclick=baba.play()>
+    <img src="d.png" alt="ram" width="120" height="120" style="position:absolute; top:69%; left:55%; border:none;"onclick=baba.play()>
+    <img src="d.png" alt="ram" width="120" height="120" style= " position:absolute; top:84%; left:55%; border:none;" onclick=baba.play();>
+   
     
-    
+
+<div class="buttons">
+  <button class="blob-btn">
+    Click here to download more cpu
+    <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+    </span>
+  </button>
+  <br/>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+      <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+    </filter>
+  </defs>
+</svg>
+
+
 
 
     
